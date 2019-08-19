@@ -1,0 +1,18 @@
+* user provided init file
+set ngbehavior=ps
+
+* /home/alexx/mein_repos/semestre_20-1/Instrumentacion/Practica_01/simulation/practica_01/practica_01.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mon 19 Aug 2019 01:10:03 PM CDT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+E1  4 3 2V		
+R1  4 2 330R		
+R3  1 5 330R		
+E2  4 3 2V		
+R2  4 2 330R		
+R4  1 5 330R		
+.end

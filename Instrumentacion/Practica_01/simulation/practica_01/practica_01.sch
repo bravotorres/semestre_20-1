@@ -1,0 +1,230 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:practica_01-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery E1
+U 1 1 5D5AD259
+P 3000 2250
+F 0 "E1" H 3100 2350 50  0000 L CNN
+F 1 "2V" H 3100 2250 50  0000 L CNN
+F 2 "" V 3000 2310 50  0000 C CNN
+F 3 "" V 3000 2310 50  0000 C CNN
+	1    3000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5D5AD33C
+P 4300 1800
+F 0 "R1" V 4380 1800 50  0000 C CNN
+F 1 "330R" V 4300 1800 50  0000 C CNN
+F 2 "" V 4230 1800 50  0000 C CNN
+F 3 "" H 4300 1800 50  0000 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5D5AD391
+P 4300 2900
+F 0 "R3" V 4380 2900 50  0000 C CNN
+F 1 "330R" V 4300 2900 50  0000 C CNN
+F 2 "" V 4230 2900 50  0000 C CNN
+F 3 "" H 4300 2900 50  0000 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amperemeter_DC MES1
+U 1 1 5D5AD3C8
+P 4300 2400
+F 0 "MES1" H 4170 2440 50  0000 R CNN
+F 1 "Amperemeter_DC" H 4170 2370 50  0000 R CNN
+F 2 "" V 4300 2500 50  0000 C CNN
+F 3 "" V 4300 2500 50  0000 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amperemeter_DC MES3
+U 1 1 5D5AD3FD
+P 4300 3450
+F 0 "MES3" H 4170 3490 50  0000 R CNN
+F 1 "Amperemeter_DC" H 4170 3420 50  0000 R CNN
+F 2 "" V 4300 3550 50  0000 C CNN
+F 3 "" V 4300 3550 50  0000 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Voltmeter_DC MES5
+U 1 1 5D5AD454
+P 5100 1800
+F 0 "MES5" H 4970 1840 50  0000 R CNN
+F 1 "Voltmeter_DC" H 4970 1770 50  0000 R CNN
+F 2 "" V 5100 1900 50  0000 C CNN
+F 3 "" V 5100 1900 50  0000 C CNN
+	1    5100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Voltmeter_DC MES7
+U 1 1 5D5AD4AB
+P 5100 2950
+F 0 "MES7" H 4970 2990 50  0000 R CNN
+F 1 "Voltmeter_DC" H 4970 2920 50  0000 R CNN
+F 2 "" V 5100 3050 50  0000 C CNN
+F 3 "" V 5100 3050 50  0000 C CNN
+	1    5100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1650 4300 1600
+Wire Wire Line
+	3000 1600 5100 1600
+Wire Wire Line
+	4300 1950 4300 2200
+Wire Wire Line
+	4300 2600 4300 2750
+Wire Wire Line
+	4300 3050 4300 3250
+Wire Wire Line
+	5100 3150 4300 3150
+Connection ~ 4300 3150
+Wire Wire Line
+	4300 3650 3000 3650
+Wire Wire Line
+	3000 3650 3000 2450
+Wire Wire Line
+	5100 2000 5100 2100
+Wire Wire Line
+	5100 2100 4300 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	3000 1600 3000 2050
+Connection ~ 4300 1600
+Wire Wire Line
+	4300 2700 5100 2700
+Wire Wire Line
+	5100 2700 5100 2750
+Connection ~ 4300 2700
+$Comp
+L Battery E2
+U 1 1 5D5ADDC9
+P 3000 2250
+F 0 "E2" H 3100 2350 50  0000 L CNN
+F 1 "2V" H 3100 2250 50  0000 L CNN
+F 2 "" V 3000 2310 50  0000 C CNN
+F 3 "" V 3000 2310 50  0000 C CNN
+	1    3000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5D5ADDCA
+P 4300 1800
+F 0 "R2" V 4380 1800 50  0000 C CNN
+F 1 "330R" V 4300 1800 50  0000 C CNN
+F 2 "" V 4230 1800 50  0000 C CNN
+F 3 "" H 4300 1800 50  0000 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5D5ADDCB
+P 4300 2900
+F 0 "R4" V 4380 2900 50  0000 C CNN
+F 1 "330R" V 4300 2900 50  0000 C CNN
+F 2 "" V 4230 2900 50  0000 C CNN
+F 3 "" H 4300 2900 50  0000 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amperemeter_DC MES2
+U 1 1 5D5ADDCC
+P 4300 2400
+F 0 "MES2" H 4170 2440 50  0000 R CNN
+F 1 "Amperemeter_DC" H 4170 2370 50  0000 R CNN
+F 2 "" V 4300 2500 50  0000 C CNN
+F 3 "" V 4300 2500 50  0000 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amperemeter_DC MES4
+U 1 1 5D5ADDCD
+P 4300 3450
+F 0 "MES4" H 4170 3490 50  0000 R CNN
+F 1 "Amperemeter_DC" H 4170 3420 50  0000 R CNN
+F 2 "" V 4300 3550 50  0000 C CNN
+F 3 "" V 4300 3550 50  0000 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Voltmeter_DC MES6
+U 1 1 5D5ADDCE
+P 5100 1800
+F 0 "MES6" H 4970 1840 50  0000 R CNN
+F 1 "Voltmeter_DC" H 4970 1770 50  0000 R CNN
+F 2 "" V 5100 1900 50  0000 C CNN
+F 3 "" V 5100 1900 50  0000 C CNN
+	1    5100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Voltmeter_DC MES8
+U 1 1 5D5ADDCF
+P 5100 2950
+F 0 "MES8" H 4970 2990 50  0000 R CNN
+F 1 "Voltmeter_DC" H 4970 2920 50  0000 R CNN
+F 2 "" V 5100 3050 50  0000 C CNN
+F 3 "" V 5100 3050 50  0000 C CNN
+	1    5100 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
