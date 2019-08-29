@@ -1,0 +1,9 @@
+* Qucs 0.0.21 /home/alexx/mein_repos/semestre_20-1/Instrumentacion/Practica_01/simulation/practica.dpl
+.INCLUDE "/usr/share/qucs-s/xspice_cmlib/include/ngspice_mathfunc.inc"
+* Qucs 0.0.21  /home/alexx/mein_repos/semestre_20-1/Instrumentacion/Practica_01/simulation/practica.dpl
+.control
+echo "" > spice4qucs.cir.noise
+echo "" > spice4qucs.cir.pz
+exit
+.endc
+.END
