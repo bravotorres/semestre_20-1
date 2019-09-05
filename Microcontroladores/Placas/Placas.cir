@@ -1,0 +1,28 @@
+* /home/alexx/tmp/Placas/Placas.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu 05 Sep 2019 01:11:41 PM CDT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R_8  Net-_D_8-Pad2_ Net-_IN1-Pad8_ R		
+R_7  Net-_D_7-Pad2_ Net-_IN1-Pad7_ R		
+R_6  Net-_D_6-Pad2_ Net-_IN1-Pad6_ R		
+R_5  Net-_D_5-Pad2_ Net-_IN1-Pad5_ R		
+R_4  Net-_D_4-Pad2_ Net-_IN1-Pad4_ R		
+R_3  Net-_D_3-Pad2_ Net-_IN1-Pad3_ R		
+R_2  Net-_D_2-Pad2_ Net-_IN1-Pad2_ R		
+R_1  Net-_D_1-Pad2_ Net-_IN1-Pad1_ R		
+D_8  Net-_COMM1-Pad1_ Net-_D_8-Pad2_ LED		
+D_7  Net-_COMM1-Pad1_ Net-_D_7-Pad2_ LED		
+D_6  Net-_COMM1-Pad1_ Net-_D_6-Pad2_ LED		
+D_5  Net-_COMM1-Pad1_ Net-_D_5-Pad2_ LED		
+D_4  Net-_COMM1-Pad1_ Net-_D_4-Pad2_ LED		
+D_3  Net-_COMM1-Pad1_ Net-_D_3-Pad2_ LED		
+D_2  Net-_COMM1-Pad1_ Net-_D_2-Pad2_ LED		
+D_1  Net-_COMM1-Pad1_ Net-_D_1-Pad2_ LED		
+IN1  Net-_IN1-Pad1_ Net-_IN1-Pad2_ Net-_IN1-Pad3_ Net-_IN1-Pad4_ Net-_IN1-Pad5_ Net-_IN1-Pad6_ Net-_IN1-Pad7_ Net-_IN1-Pad8_ CONN_01X08		
+COMM1  Net-_COMM1-Pad1_ CONN_01X01		
+
+.end

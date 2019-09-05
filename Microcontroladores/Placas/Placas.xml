@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alexx/tmp/Placas/Placas.sch</source>
+    <date>Thu 05 Sep 2019 01:11:45 PM CDT</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Placas.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R_8">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7146B5</tstamp>
+    </comp>
+    <comp ref="R_7">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714708</tstamp>
+    </comp>
+    <comp ref="R_6">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714729</tstamp>
+    </comp>
+    <comp ref="R_5">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714769</tstamp>
+    </comp>
+    <comp ref="R_4">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71499D</tstamp>
+    </comp>
+    <comp ref="R_3">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7149A3</tstamp>
+    </comp>
+    <comp ref="R_2">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7149A9</tstamp>
+    </comp>
+    <comp ref="R_1">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7149AF</tstamp>
+    </comp>
+    <comp ref="D_8">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7149BF</tstamp>
+    </comp>
+    <comp ref="D_7">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714A69</tstamp>
+    </comp>
+    <comp ref="D_6">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714B8C</tstamp>
+    </comp>
+    <comp ref="D_5">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714B92</tstamp>
+    </comp>
+    <comp ref="D_4">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714ECC</tstamp>
+    </comp>
+    <comp ref="D_3">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714ED2</tstamp>
+    </comp>
+    <comp ref="D_2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714ED8</tstamp>
+    </comp>
+    <comp ref="D_1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714EDE</tstamp>
+    </comp>
+    <comp ref="IN1">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7150DE</tstamp>
+    </comp>
+    <comp ref="COMM1">
+      <value>CONN_01X01</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71516D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IN1-Pad1)">
+      <node ref="IN1" pin="1"/>
+      <node ref="R_1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D_8-Pad2)">
+      <node ref="R_8" pin="1"/>
+      <node ref="D_8" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D_7-Pad2)">
+      <node ref="R_7" pin="1"/>
+      <node ref="D_7" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D_6-Pad2)">
+      <node ref="R_6" pin="1"/>
+      <node ref="D_6" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D_5-Pad2)">
+      <node ref="R_5" pin="1"/>
+      <node ref="D_5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D_4-Pad2)">
+      <node ref="D_4" pin="2"/>
+      <node ref="R_4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D_3-Pad2)">
+      <node ref="R_3" pin="1"/>
+      <node ref="D_3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D_2-Pad2)">
+      <node ref="R_2" pin="1"/>
+      <node ref="D_2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D_1-Pad2)">
+      <node ref="R_1" pin="1"/>
+      <node ref="D_1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(IN1-Pad8)">
+      <node ref="R_8" pin="2"/>
+      <node ref="IN1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(IN1-Pad7)">
+      <node ref="R_7" pin="2"/>
+      <node ref="IN1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(IN1-Pad6)">
+      <node ref="IN1" pin="6"/>
+      <node ref="R_6" pin="2"/>
+    </net>
+    <net code="13" name="Net-(IN1-Pad5)">
+      <node ref="IN1" pin="5"/>
+      <node ref="R_5" pin="2"/>
+    </net>
+    <net code="14" name="Net-(COMM1-Pad1)">
+      <node ref="COMM1" pin="1"/>
+      <node ref="D_4" pin="1"/>
+      <node ref="D_1" pin="1"/>
+      <node ref="D_2" pin="1"/>
+      <node ref="D_3" pin="1"/>
+      <node ref="D_5" pin="1"/>
+      <node ref="D_6" pin="1"/>
+      <node ref="D_7" pin="1"/>
+      <node ref="D_8" pin="1"/>
+    </net>
+    <net code="15" name="Net-(IN1-Pad4)">
+      <node ref="R_4" pin="2"/>
+      <node ref="IN1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(IN1-Pad3)">
+      <node ref="IN1" pin="3"/>
+      <node ref="R_3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(IN1-Pad2)">
+      <node ref="IN1" pin="2"/>
+      <node ref="R_2" pin="2"/>
+    </net>
+  </nets>
+</export>
