@@ -1,0 +1,4 @@
+BLINK LED a 500ms
+BLINK LED a 200ms
+
+Dado que el periodo comprende la parte alta y baja del ciclo, se consideran las dos martes, es decir, la mitad en alto y la mitad en bajo.
