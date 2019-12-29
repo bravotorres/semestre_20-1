@@ -12,6 +12,9 @@
 *.cb2
 .*.lb
 
+## Temp Files
+.~*
+
 ## Intermediate documents:
 *.dvi
 *.xdv
@@ -241,3 +244,4 @@ TSWLatexianTemp*
 # generated if using elsarticle.cls
 *.spl
 
+/.project
